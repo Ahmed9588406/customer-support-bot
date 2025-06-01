@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Node.js
+node_modules/
+npm-debug.log
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
