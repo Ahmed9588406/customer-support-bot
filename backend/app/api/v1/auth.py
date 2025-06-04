@@ -5,8 +5,6 @@ from app.models.user import User
 from app.auth import get_password_hash, create_access_token, ACCESS_TOKEN_EXPIRE_MINUTES, verify_password
 from database import get_db
 from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi import FastAPI, APIRouter, Depends, HTTPException, status
 
 router = APIRouter()
 
